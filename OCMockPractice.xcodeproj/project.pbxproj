@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		918A7DC2D665E9A5288E9DD0 /* libPods-OCMockPracticeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 986CA9D7A281628F4A2E5C9B /* libPods-OCMockPracticeTests.a */; };
 		B073BFB21CC7538C00B0FF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFB11CC7538C00B0FF94 /* main.m */; };
 		B073BFB51CC7538C00B0FF94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFB41CC7538C00B0FF94 /* AppDelegate.m */; };
 		B073BFB81CC7538C00B0FF94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFB71CC7538C00B0FF94 /* ViewController.m */; };
@@ -16,6 +17,11 @@
 		B073BFC31CC7538C00B0FF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B073BFC11CC7538C00B0FF94 /* LaunchScreen.storyboard */; };
 		B073BFCE1CC7538C00B0FF94 /* OCMockPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFCD1CC7538C00B0FF94 /* OCMockPracticeTests.m */; };
 		B073BFD91CC7538C00B0FF94 /* OCMockPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFD81CC7538C00B0FF94 /* OCMockPracticeUITests.m */; };
+		B073BFEC1CC7543600B0FF94 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFEB1CC7543600B0FF94 /* Controller.m */; };
+		B073BFEF1CC7544600B0FF94 /* TwitterConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFEE1CC7544600B0FF94 /* TwitterConnection.m */; };
+		B073BFF21CC7545400B0FF94 /* TwitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFF11CC7545400B0FF94 /* TwitterView.m */; };
+		B073BFF51CC754DD00B0FF94 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFF41CC754DD00B0FF94 /* Tweet.m */; };
+		B073BFF71CC7562C00B0FF94 /* OCMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B073BFF61CC7562C00B0FF94 /* OCMockTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75B04FBFE96E6A391659C724 /* Pods-OCMockPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCMockPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCMockPracticeTests/Pods-OCMockPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		986CA9D7A281628F4A2E5C9B /* libPods-OCMockPracticeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCMockPracticeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B073BFAD1CC7538C00B0FF94 /* OCMockPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMockPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B073BFB11CC7538C00B0FF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B073BFB31CC7538C00B0FF94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +61,16 @@
 		B073BFD41CC7538C00B0FF94 /* OCMockPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B073BFD81CC7538C00B0FF94 /* OCMockPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockPracticeUITests.m; sourceTree = "<group>"; };
 		B073BFDA1CC7538C00B0FF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B073BFEA1CC7543600B0FF94 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		B073BFEB1CC7543600B0FF94 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		B073BFED1CC7544600B0FF94 /* TwitterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterConnection.h; sourceTree = "<group>"; };
+		B073BFEE1CC7544600B0FF94 /* TwitterConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterConnection.m; sourceTree = "<group>"; };
+		B073BFF01CC7545400B0FF94 /* TwitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterView.h; sourceTree = "<group>"; };
+		B073BFF11CC7545400B0FF94 /* TwitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterView.m; sourceTree = "<group>"; };
+		B073BFF31CC754DD00B0FF94 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		B073BFF41CC754DD00B0FF94 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		B073BFF61CC7562C00B0FF94 /* OCMockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockTests.m; sourceTree = "<group>"; };
+		FD756C8776EA2487070140A3 /* Pods-OCMockPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCMockPracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCMockPracticeTests/Pods-OCMockPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918A7DC2D665E9A5288E9DD0 /* libPods-OCMockPracticeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71296317625995AEB52BECA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986CA9D7A281628F4A2E5C9B /* libPods-OCMockPracticeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B073BFA41CC7538C00B0FF94 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +114,8 @@
 				B073BFCC1CC7538C00B0FF94 /* OCMockPracticeTests */,
 				B073BFD71CC7538C00B0FF94 /* OCMockPracticeUITests */,
 				B073BFAE1CC7538C00B0FF94 /* Products */,
+				D026DBBE3C88FA2D9AA28B32 /* Pods */,
+				71296317625995AEB52BECA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +142,14 @@
 				B073BFC41CC7538C00B0FF94 /* Info.plist */,
 				B073BFBC1CC7538C00B0FF94 /* OCMockPractice.xcdatamodeld */,
 				B073BFB01CC7538C00B0FF94 /* Supporting Files */,
+				B073BFEA1CC7543600B0FF94 /* Controller.h */,
+				B073BFEB1CC7543600B0FF94 /* Controller.m */,
+				B073BFED1CC7544600B0FF94 /* TwitterConnection.h */,
+				B073BFEE1CC7544600B0FF94 /* TwitterConnection.m */,
+				B073BFF01CC7545400B0FF94 /* TwitterView.h */,
+				B073BFF11CC7545400B0FF94 /* TwitterView.m */,
+				B073BFF31CC754DD00B0FF94 /* Tweet.h */,
+				B073BFF41CC754DD00B0FF94 /* Tweet.m */,
 			);
 			path = OCMockPractice;
 			sourceTree = "<group>";
@@ -130,6 +167,7 @@
 			children = (
 				B073BFCD1CC7538C00B0FF94 /* OCMockPracticeTests.m */,
 				B073BFCF1CC7538C00B0FF94 /* Info.plist */,
+				B073BFF61CC7562C00B0FF94 /* OCMockTests.m */,
 			);
 			path = OCMockPracticeTests;
 			sourceTree = "<group>";
@@ -141,6 +179,15 @@
 				B073BFDA1CC7538C00B0FF94 /* Info.plist */,
 			);
 			path = OCMockPracticeUITests;
+			sourceTree = "<group>";
+		};
+		D026DBBE3C88FA2D9AA28B32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD756C8776EA2487070140A3 /* Pods-OCMockPracticeTests.debug.xcconfig */,
+				75B04FBFE96E6A391659C724 /* Pods-OCMockPracticeTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B073BFE01CC7538C00B0FF94 /* Build configuration list for PBXNativeTarget "OCMockPracticeTests" */;
 			buildPhases = (
+				EA562DFF04594791719AA197 /* Check Pods Manifest.lock */,
 				B073BFC51CC7538C00B0FF94 /* Sources */,
 				B073BFC61CC7538C00B0FF94 /* Frameworks */,
 				B073BFC71CC7538C00B0FF94 /* Resources */,
+				8508B6294D1D13AD76055A78 /* Embed Pods Frameworks */,
+				665A31202F7ED91E32F5C58D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,15 +318,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		665A31202F7ED91E32F5C58D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCMockPracticeTests/Pods-OCMockPracticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8508B6294D1D13AD76055A78 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCMockPracticeTests/Pods-OCMockPracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA562DFF04594791719AA197 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B073BFA91CC7538C00B0FF94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B073BFB81CC7538C00B0FF94 /* ViewController.m in Sources */,
+				B073BFEC1CC7543600B0FF94 /* Controller.m in Sources */,
 				B073BFB51CC7538C00B0FF94 /* AppDelegate.m in Sources */,
+				B073BFF51CC754DD00B0FF94 /* Tweet.m in Sources */,
 				B073BFBE1CC7538C00B0FF94 /* OCMockPractice.xcdatamodeld in Sources */,
 				B073BFB21CC7538C00B0FF94 /* main.m in Sources */,
+				B073BFEF1CC7544600B0FF94 /* TwitterConnection.m in Sources */,
+				B073BFF21CC7545400B0FF94 /* TwitterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B073BFCE1CC7538C00B0FF94 /* OCMockPracticeTests.m in Sources */,
+				B073BFF71CC7562C00B0FF94 /* OCMockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +538,7 @@
 		};
 		B073BFE11CC7538C00B0FF94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD756C8776EA2487070140A3 /* Pods-OCMockPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OCMockPracticeTests/Info.plist;
@@ -447,6 +551,7 @@
 		};
 		B073BFE21CC7538C00B0FF94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B04FBFE96E6A391659C724 /* Pods-OCMockPracticeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OCMockPracticeTests/Info.plist;
@@ -500,6 +605,7 @@
 				B073BFDF1CC7538C00B0FF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B073BFE01CC7538C00B0FF94 /* Build configuration list for PBXNativeTarget "OCMockPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +614,7 @@
 				B073BFE21CC7538C00B0FF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B073BFE31CC7538C00B0FF94 /* Build configuration list for PBXNativeTarget "OCMockPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +623,7 @@
 				B073BFE51CC7538C00B0FF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
