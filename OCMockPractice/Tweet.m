@@ -10,12 +10,20 @@
 
 @implementation Tweet
 
+- (id)init
+{
+    /* set initWithContent as the designated initializer */
+    return [self initWithContent:@""];
+}
+
+
 - (id)initWithContent:(NSString*)content
 {
     self = [super init];
     
     if (self) {
-        [self setContent:content];
+        /* You should always access the instance variables directly from within an initialization method */
+        _content = content;
     }
     
     return self;

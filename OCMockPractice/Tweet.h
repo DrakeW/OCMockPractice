@@ -10,7 +10,7 @@
 
 @interface Tweet : NSObject
 
-@property(retain) NSString *content;
+@property(retain, strong) NSString *content;
 
 - (id)initWithContent:(NSString*)cotent;
 

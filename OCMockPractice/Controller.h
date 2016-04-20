@@ -10,10 +10,13 @@
 #import "TwitterConnection.h"
 #import "TwitterView.h"
 
-@interface Controller : NSObject
+@interface Controller : NSObject {
+    /* this instance variable cannot be accessed outside of this class */
+    NSString *_secretString2;
+}
 
-@property(retain) TwitterConnection *connection;
-@property(retain) TwitterView *view;
+@property(strong) TwitterConnection *connection;
+@property(strong) TwitterView *view;
 
 - (void)updateTweetView;
 

@@ -8,7 +8,10 @@
 
 #import "Controller.h"
 
-@implementation Controller
+@implementation Controller {
+    /* this instance variable cannot be accessed outside of this class */
+    NSString *_someSecretString;
+}
 
 @synthesize connection;
 @synthesize view;
@@ -23,6 +26,8 @@
         }
     }else {
         /* handle error cases */
+        _someSecretString = @"what the hack";
+        _secretString2 = @"yolo";
     }
 }
 
